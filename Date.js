@@ -8,5 +8,5 @@ var CurrentDate = new Date();
 CurrentDate.setDate(8);
 CurrentDate.setFullYear(2025);
 console.log(CurrentDate);
-console.log(CurrentDate.toLocaleString('en-IND',{timeZon'}));
+console.log(CurrentDate.toLocaleString('en-IND',{timeZone:'Asia/Kolkata'}));
 console.log(CurrentDate.toLocaleString('en-US',{timeZone:'America/New_York'}));
