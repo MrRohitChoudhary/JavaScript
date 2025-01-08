@@ -10,12 +10,21 @@ let Student = [[1,2,3,], "Rohit","Pravin","Subham"]
 
 //Array With Loops
 
-var meraBetaPravin = [1,2,3,4,5];
-for (var i=0; i<meraBetaPravin.length;i++){
-    console.log(meraBetaPravin[i]);
-}
+// var meraBetaPravin = [1,2,3,4,5];
+// for (var i=0; i<meraBetaPravin.length;i++){
+//     console.log(meraBetaPravin[i]);
+// }
 
-document.querySelector('.pravin').addEventListener('click',function(){
-    this.style.backgroundColor = "black";
-    this.style.color = "yellow";
-})
+// document.querySelector('.pravin').addEventListener('click',function(){
+//     this.innerHTML = "Pravin Nai Batman Hu me ";
+//     this.style.backgroundColor = "black";
+//     this.style.color = "yellow";
+// });
+
+
+//FOR OF LOOP
+
+var blackAdam = [1,2,3,4,5];
+for (var i of blackAdam){
+    console.log(i);
+}
