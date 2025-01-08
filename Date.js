@@ -1,6 +1,7 @@
 // Date is a built-in object in JavaScript that stores the date and time. It is used to work with dates and times.
 
-// console.log(CurrentDate);
+var CurDate = new Date();
+console.log(CurDate);
 // 2025-01-08T15:21:41.049Z
 
 
