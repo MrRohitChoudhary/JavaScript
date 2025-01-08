@@ -15,11 +15,11 @@ let Student = [[1,2,3,], "Rohit","Pravin","Subham"]
 //     console.log(meraBetaPravin[i]);
 // }
 
-// document.querySelector('.pravin').addEventListener('click',function(){
-//     this.innerHTML = "Pravin Nai Batman Hu me ";
-//     this.style.backgroundColor = "black";
-//     this.style.color = "yellow";
-// });
+document.querySelector('.pravin').addEventListener('click',function(){
+    this.innerHTML = "Pravin Nai Batman Hu me ";
+    this.style.backgroundColor = "black";
+    this.style.color = "yellow";
+});
 
 
 //FOR OF LOOP
